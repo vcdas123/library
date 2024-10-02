@@ -12,36 +12,36 @@ import Img from "../../components/img/Img";
 
 const Gallery = () => {
   return (
-    <div className="p-10">
+    <div>
       <Grid>
         <Grid.Row>
           <Grid.Col span={2}>
-            <Img src={img1} alt="Phyllis" />
+            <Img src={img8} alt="Phyllis" />
           </Grid.Col>
           <Grid.Col>
-            <Img src={img2} alt="Johnnie" />
+            <Img src={img4} alt="Johnnie" />
           </Grid.Col>
         </Grid.Row>
         <Grid.Row>
           <Grid.Col>
-            <Img src={img3} alt="Charles" />
+            <Img src={img5} alt="Charles" />
           </Grid.Col>
           <Grid.Col span={2}>
             <Img src={img4} alt="Cesar" />
           </Grid.Col>
           <Grid.Col span={3}>
-            <Img src={img5} alt="Alivia" />
+            <Img src={img3} alt="Alivia" />
           </Grid.Col>
         </Grid.Row>
         <Grid.Row>
           <Grid.Col span={3}>
-            <Img src={img8} alt="Albertha" />
+            <Img src={img1} alt="Albertha" />
           </Grid.Col>
           <Grid.Col span={2}>
-            <Img src={img6} alt="Israel" />
+            <Img src={img7} alt="Israel" />
           </Grid.Col>
           <Grid.Col>
-            <Img src={img7} alt="Jamison" />
+            <Img src={img6} alt="Jamison" />
           </Grid.Col>
         </Grid.Row>
       </Grid>
